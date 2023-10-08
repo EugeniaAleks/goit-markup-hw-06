@@ -614,6 +614,10 @@ a {
   overflow: hidden;
 }
 
+.portfolio-item-img {
+  width: 288px;
+}
+
 .portfolio-overlay {
   position: absolute;
   inset: 0;
@@ -664,6 +668,10 @@ a {
   .portfolio-item {
     flex-basis: calc((100% - 24px) / 2);
   }
+
+  .portfolio-item-img {
+    width: 356px;
+  }
 }
 
 /* ------------------------------------- */
@@ -676,6 +684,10 @@ a {
 
   .portfolio-item {
     flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .portfolio-item-img {
+    width: 360px;
   }
 }
 
