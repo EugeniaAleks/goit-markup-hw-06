@@ -61,20 +61,28 @@
             </li>
           </ul>
         </address>
+
+        <button class="mobile-menu-open-btn" type="button">
+          <svg class="mobile-menu-open-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective solutions for your business</h1>
           <button class="hero-button button" type="button">
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
-      <section class="advantages section">
+      <!-------------------------  ADVANTAGES  ----------------------->
+
+      <!-- <section class="advantages section">
         <div class="container">
           <h2 class="visually-hidden">Our advantages and principles</h2>
           <ul class="advantages-list list">
@@ -141,18 +149,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- <section class="activities">
-            <h2 class="activities-title section-title">What are we doing</h2>
-            <ul class="activities-list list">
-                <li class="activities-item"><img class="activities-item-img" src="./images/wawdoig1.jpg" alt="computer monitor/website" width="360" height="300"></li>
-                <li class="activities-item"><img class="activities-item-img" src="./images/wawdoig2.jpg" alt="mobile phone/mobile app" width="360" height="300"></li>
-                <li class="activities-item"><img class="activities-item-img" src="./images/wawdoig3.jpg" alt="desktop and mobile phone vertions of the site" width="360" height="300"></li>
-            </ul>
-        </section> -->
-
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="container">
           <h2 class="team-title section-title">Our Team</h2>
           <ul class="team-list list">
@@ -399,11 +398,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-------------------------  PORTFOLIO  ----------------------->
 
-      <section class="portfolio section">
+      <!-- <section class="portfolio section">
         <div class="container">
           <h2 class="portfolio-title section-title">Our Portfolio</h2>
           <ul class="portfolio-list list">
@@ -552,12 +551,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!--------------------------- FOOTER ---------------------------->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-wraper">
         <div class="footer-webstudio">
           <a class="logo-link footer-logo-link link" href="./index.html"
@@ -641,11 +640,11 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-------------------- modal-window ------------------->
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -731,22 +730,122 @@
 
             <label class="modal-form-label chackbox-label" for="user-privacy">
               <span class="modal-custom-checkbox">
-                <svg class="modal-click-icon" width="12" height="10">
+                <svg class="modal-click-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a
-                class="form-privacy-policy"
-                href="https://github.com/EugeniaAleks/goit-markup-hw-05"
-                target="_blank"
-                >Privacy Policy</a
-              >
+              <span class="modal-custom-wrap">
+                I accept the terms and conditions of the
+                <a
+                  class="form-privacy-policy"
+                  href="https://github.com/EugeniaAleks/goit-markup-hw-05"
+                  target="_blank"
+                  >Privacy Policy</a
+                >
+              </span>
             </label>
           </div>
           <button class="modal-form-submit button" type="submit">Send</button>
         </form>
       </div>
     </div>
+
+    <!-------------------------- mobile-menu --------------------->
+
+    <!-- <div class="mobile-menu is-open">
+      <button class="mobile-menu-btn" type="button">
+        <svg class="mobile-menu-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-nav-list list">
+        <li class="mobile-nav-item">
+          <a href="./index.html" class="mobile-nav-link link active">Studio</a>
+        </li>
+
+        <li class="mobile-nav-item">
+          <a href="./index.html" class="mobile-nav-link link">Portfolio</a>
+        </li>
+
+        <li class="mobile-nav-item">
+          <a href="./index.html" class="mobile-nav-link link">Contacts</a>
+        </li>
+      </ul>
+
+      <address class="mobile-contacts link">
+        <ul class="mobile-contacts-list list">
+          <li class="mobile-contacts-item">
+            <a
+              class="mobile-contacts-link link active"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com
+            </a>
+          </li>
+
+          <li class="mobile-contacts-item">
+            <a class="mobile-contacts-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11
+            </a>
+          </li>
+        </ul>
+      </address>
+
+      <ul class="mobile-social-list list">
+        <li class="mobile-social-item">
+          <a
+            class="mobile-social-link link"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <svg class="mobile-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-social-link link"
+            href="https://twitter.com/i/flow/login"
+            target="_blank"
+          >
+            <svg class="mobile-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-social-link link"
+            href="https://www.facebook.com/"
+            target="_blank"
+          >
+            <svg class="mobile-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-social-link link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+          >
+            <svg class="mobile-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div> -->
   </body>
 </html>
+
+<!-- <section class="activities">
+            <h2 class="activities-title section-title">What are we doing</h2>
+            <ul class="activities-list list">
+                <li class="activities-item"><img class="activities-item-img" src="./images/wawdoig1.jpg" alt="computer monitor/website" width="360" height="300"></li>
+                <li class="activities-item"><img class="activities-item-img" src="./images/wawdoig2.jpg" alt="mobile phone/mobile app" width="360" height="300"></li>
+                <li class="activities-item"><img class="activities-item-img" src="./images/wawdoig3.jpg" alt="desktop and mobile phone vertions of the site" width="360" height="300"></li>
+            </ul>
+        </section> -->
